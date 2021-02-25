@@ -1,13 +1,17 @@
+/** Back-end Java
+*** M3 - Milestone 1 - Fase 4
+*** Roger Torrent */
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Milestone1Fase4 {
+public class M3_Milestone1Fase4 {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<String> arrayCiutats = new ArrayList<>();
 		
 		System.out.println("Introdueix sis noms de ciutats:");
-		for (int i = 6; i > 0 ; i--)
+		for (int i = 6; i > 0; i--)
 			arrayCiutats.add(sc.nextLine());
 		
 		ArrayList<char[]> arrayCiutatsInvertides = new ArrayList<>();

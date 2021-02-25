@@ -1,6 +1,10 @@
+/** Back-end Java
+*** M3 - Milestone 2
+*** Roger Torrent */
+
 import java.util.Scanner;
 
-public class Milestone2 {
+public class M3_Milestone2 {
 	public static void main(String args[]) {
 		double[][] notes = new double[3][5];
 		Scanner sc = new Scanner(System.in);

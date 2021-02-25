@@ -1,7 +1,11 @@
+/** Back-end Java
+*** M3 - Milestone 3
+*** Roger Torrent */
+
 import javax.swing.JOptionPane;
 import java.util.ArrayList;
 
-public class Milestone3 { // Fibonacci
+public class M3_Milestone3 { // Fibonacci
 	public static void main(String args[]) {
 		int n = Integer.parseInt(JOptionPane.showInputDialog(null, "Introduce un número N > 1",
 			"Fibonacci(N)", JOptionPane.QUESTION_MESSAGE));
@@ -16,6 +20,6 @@ public class Milestone3 { // Fibonacci
 			fib_string += m + " ";
 		
 		// Mantener N relativamente bajo; la salida no está formateada adecuadamente
-		JOptionPane.showMessageDialog(null, fib_string, "Fibonnacci(N)", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(null, fib_string, "Fibonnacci(" + n + ")", JOptionPane.INFORMATION_MESSAGE);
 	}
 }

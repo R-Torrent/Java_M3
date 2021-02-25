@@ -1,6 +1,10 @@
+/** Back-end Java
+*** M3 - Milestone 1 - Fase 1
+*** Roger Torrent */
+
 import java.util.Scanner;
 
-public class Milestone1Fase1 {
+public class M3_Milestone1Fase1 {
 	public static void main(String args[]) {
 		String ciutat1 = "";
 		String ciutat2 = "";
